@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- HEADER -->
+    <header class="header container">
+      <div class="header__top">
+        <p class="header__top-title">Birdwatching</p>
+        <a href="#" class="header__top-logo">Logo</a>
+      </div>
+    </header>
+
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Get started</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Photos</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Gear</a>
+          </li>
+          <li class="nav__item">
+            <a href="#">Forum</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="main container">
+      <div class="main__content">
+        <h1>Welcome</h1>
+
+        <section>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facilis reprehenderit perspiciatis nostrum
+            odio harum minima quibusdam saepe veritatis iste, quis officiis magni. Asperiores repellendus vel totam
+            nostrum blanditiis deserunt.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque facilis reprehenderit perspiciatis nostrum
+            odio harum minima quibusdam saepe veritatis iste, quis officiis magni. Asperiores repellendus vel totam
+            nostrum blanditiis deserunt.</p>
+        </section>
+
+        <!-- ARTICLES -->
+        <section class="article__list ">
+          <article class="article__item">
+            <h3>Article Title</h3>
+            <figure>
+              <img src="assets/images/apricot-blossom.jpg" alt="">
+              <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+          </article>
+
+          <article class="article__item">
+            <h3>Article Title</h3>
+            <figure>
+              <img src="assets/images/apricot-blossom.jpg" alt="">
+              <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+          </article>
+
+          <article class="article__item">
+            <h3>Article Title</h3>
+            <figure>
+              <img src="assets/images/apricot-blossom.jpg" alt="">
+              <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+          </article>
+          <article class="article__item">
+            <h3>Article Title</h3>
+            <figure>
+              <img src="assets/images/apricot-blossom.jpg" alt="">
+              <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+          </article>
+
+          <article class="article__item">
+            <h3>Article Title</h3>
+            <figure>
+              <img src="assets/images/apricot-blossom.jpg" alt="">
+              <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <!-- PAYMENT FORM -->
+        <section id="payment" class="payment">
+          <h2>Payment form</h2>
+
+          <form action="#" class="payment__form">
+<!-- Contact information -->
+            <div>
+              <h3>Contact information</h3>
+              <div class="form__radius">
+                <label class="form__radius-label" for="ace">
+                  <input type="radio" name="form__input-title" id="ace" required>
+                  <span>Ace</span>
+                </label>
+                <label class="form__radius-label" for="king">
+                  <input type="radio" name="form__input-title" id="king" required>
+                  <span>King</span>
+                </label>
+                <label class="form__radius-label" for="queen">
+                  <input type="radio" name="form__input-title" id="queen" required>
+                  <span>Queen</span>
+                </label>
+              </div>
+
+              <div class="form__control">
+                <label class="form__control-label" for="name">Name</label>
+                <input type="text" id="name" class="form__control-input" required>
+              </div>
+              <div class="form__control">
+                <label class="form__control-label" for="email">Email</label>
+                <input type="email" id="email" class="form__control-input" required>
+              </div>
+              <div class="form__control">
+                <label class="form__control-label" for="password">Password</label>
+                <input type="password" id="password" class="form__control-input" required>
+              </div>
+
+            </div>
+
+            <!-- Payment information -->
+            <div>
+              <h3>Payment information</h3>
+
+              <div class="form__control">
+                <label class="form__control-label" for="card-type">Card Type</label>
+                <select name="card-type" id="card-type" class="form__control-input" required>
+                  <option value="visa">Visa</option>
+                  <option value="master">Master</option>
+                  <option value="paypal">PayPal</option>
+                </select>
+              </div>
+
+              <div class="form__control">
+                <label class="form__control-label" for="card-number">Card number</label>
+                <input type="number" id="card-number" class="form__control-input" required>
+              </div>
+              <div class="form__control">
+                <label class="form__control-label" for="expiration">Expiration date</label>
+                <input type="date" id="expiration" class="form__control-input" required>
+              </div>
+            </div>
+            <button type="submit" class="form__button">Validate payment</button>
+          </form>
+        </section>
+      </div>
+
+
+      <aside class="main__sidebar container">
+        <h2>Favorite Photos</h2>
+
+        <div class="photo__list">
+          <img src="assets/images/apricot-blossom.jpg" alt="" class="photo__item" />
+          <img src="assets/images/apricot-blossom.jpg" alt="" class="photo__item" />
+          <img src="assets/images/apricot-blossom.jpg" alt="" class="photo__item" />
+          <img src="assets/images/apricot-blossom.jpg" alt="" class="photo__item" />
+        </div>
+      </aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer container">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, nihil. Quidem suscipit possimus assumenda
+        magni cumque nemo libero sed? Aperiam soluta minus officiis ea hic doloribus iste id voluptatibus impedit.</p>
+      <br>
+      <p>&#169; 2022 Ax Nguyen</p>
+    </footer>
+  </div>
+</body>
+
+</html>
